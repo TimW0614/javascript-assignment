@@ -34,37 +34,37 @@
 				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 				  crossorigin="anonymous"></script>
 
-		<title>Bootstrap Challenge</title>
+		<script type="text/javascript" src="script.js"></script>
 
 	</head>
 	<body>
 		<h4>javascript-challenge</h4>
 
-		<!-- Photo and text section -->
-		<section class="bg-info text-center">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-3">
-					</div>
-					<div class="col-md-7 col-md-offset-1"/>
-					<br/>
-					<br/>
-					<p>
-						Among going manor who did. Do ye is celebrated it sympathize considered. May ecstatic did surprise
-						elegance the ignorant age. Own her miss cold last. It so numerous if he outlived disp</p><br/>
-					<p>Wrote water woman of heart it total other. By in entirely securing suitable graceful at families
-						improved. Zealously few furniture repulsive was agreeable consisted difficult.
-						Collected breakfast estimable questions in to favourite it.</p>
-				</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+				</div><!-- /.col-md-8 -->
+			</div><!-- /.row -->
+			<div class="row">
+				<div class="col-md-8" id="box" onmouseenter="mouseEnter();" onmouseout="mouseOut();">javascript yay</div>
+				<br>
+				<br>
+				<br>
+				<div class="col-md-4" id="text"></div>
 			</div>
-		</section>
-
-			<div class="col-md-6 col-sm-6">
-				<h2>javascript-challenge</h2>
-				<p>The Warriors finished the season at 67-15, won the Pacific Dision Championship and entered the playoffs
-					as the #1 seed.</p>
-			</div><!-- /.col-md-3 col-sm-6 -->
-
+			<br>
+			<br>
+			<br><!-- /.row -->
+			<div class="row text">
+				<div class="col-md-4">
+					<form name="form1" onclick="return validateForm()" method="post">
+						<label for="form-input">say hi: </label>
+						<input type="text" id="form-input" name="text-area"/>
+						<input type="click" value="click">
+					</form>
+				</div><!-- /.col-md-8 -->
+			</div><!-- /.row text -->
+		</div><!-- /.container -->
 
 
 	</body>
