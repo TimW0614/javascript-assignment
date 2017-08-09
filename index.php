@@ -60,11 +60,13 @@
 					<form name="form1" onclick="return validateForm()" method="post">
 						<label for="form-input">say hi: </label>
 						<input type="text" id="form-input" name="text-area"/>
-						<input type="click" value="click">
+						<input type="button" value="click">
 					</form>
 				</div><!-- /.col-md-8 -->
 			</div><!-- /.row text -->
 		</div><!-- /.container -->
+
+
 
 
 	</body>
