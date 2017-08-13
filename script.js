@@ -34,6 +34,19 @@ function validateForm() {
 	});
 
 
+	$(function() {
+		$(document).ready(function() {
+			$("bacon-ipsum").hide();
+		});
+	});
+
+	$(function() {
+		$("bacon-ipsum").click(function() {
+			$("bacon-ipsum").show();
+		});
+	});
+
+
 
 }
 
