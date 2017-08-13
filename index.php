@@ -73,12 +73,27 @@
 
 		<header>
 			<h1>JSON and AJAX</h1>
-			<button type="submit" id="get oink">get oink</button>
+			<button class="btn-btn-lg btn-ingo" type="submit" id="get oink">get oink</button>
 		</header>
 
 		<div id="oink"></div>
 
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<button type="submit" id="bacon">Oink</button>
+					<div id=get some oink></div>
+				</div><!-- /.col-md-6 -->
+				<div class="col-md-6">
+					<button type="submit" id="Bacon">Oink</button>
+					<p id="bacon ipsum">Bacon ipsum dolor amet boudin meatloaf pastrami, tri-tip t-bone jowl beef ribs.
+						Turducken alcatra kielbasa, picanha chuck pork belly capicola corned beef shoulder pig ribeye bresaola
+						andouille leberkas. Burgdoggen meatloaf tri-tip, strip steak prosciutto picanha hamburger pork
+						shoulder salami. Tail andouille turducken doner, strip steak sausage swine biltong shankle short ribs
+						frankfurter flank meatball cow t-bone. Tenderloin ground round flank, prosciutto meatball brisket ball
+						tip hamburger t-bone pancetta.</p>
+				</div><!-- /.col-md-6 -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
 	</body>
-
-
 </html>
